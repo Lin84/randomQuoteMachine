@@ -3,14 +3,11 @@ html, body{
 	text-align: center;
 	width: 100%;	
 	font-size: 1em;
-	min-width: 800px;
-
-}
+	min-width: 800px;}
 
 body{
 	background-image: url("http://res.cloudinary.com/lin84/image/upload/v1453631558/7_dcqjpf.jpg");
-	background-size: cover;
-}
+	background-size: cover;}
 
 .quote{	
 	padding: 50px;
@@ -24,9 +21,7 @@ body{
 	padding-top: 20px;
 	line-height: 20px;
 	font-size: 18px;
-	font-family: 'Ubuntu', sans-serif;
-
-}
+	font-family: 'Ubuntu', sans-serif;}
 
 #new{
 	width: 20%;
@@ -40,8 +35,7 @@ h1{
 	font-size: 5em;
 	text-align: center;	
 	margin-top: 5%;
-	font-family: 'Lobster', cursive;
-}
+	font-family: 'Lobster', cursive;}
 
 
 #author{
@@ -50,49 +44,30 @@ h1{
 	height: 20%;
 	width: 50%;
 	margin-left: -50%;
-	padding-top:20px;
-
-}
+	padding-top:20px;}
 
 #share{
 	position: absolute;
 	left: 65%;
 	margin-top: 1%;
-	background-color: red;
-}
+	background-color: red;}
 
 
 .btn-twitter:active, .btn-twitter:hover {
     background: #0087bd;
-    color: #fff
-}
+    color: #fff;}
+
 .btn-facebook:active, .btn-facebook:hover {
     background: #30477a;
-    color: #fff
-}
-.btn-googleplus:active, .btn-googleplus:hover {
-    background: #ba3225;
-    color: #fff
-}
-.btn-stumbleupon:active, .btn-stumbleupon:hover {
-    background: #c7371e;
-    color: #fff
-}
-.btn-linkedin:active, .btn-linkedin:hover {
-    background: #0b6087;
-    color: #fff
-}
+    color: #fff;}
 
 @media (max-width: 700px){
+	
 	html{
-		font-size: 0.5em;	
-	}
+		font-size: 0.5em;}
 	#new{
-		font-size: 2em;
-	}
+		font-size: 2em;}
 	#author, #text{
 		padding-top: 10px;
-		font-size:0.8em;
-
-	}
+		font-size:0.8em;}
 }
